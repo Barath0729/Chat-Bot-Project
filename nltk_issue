@@ -1,0 +1,9 @@
+import nltk
+nltk.download('punkt')
+nltk.download('averaged_perceptron_tagger')
+nltk.download('maxent_ne_chunker')
+nltk.download('words')
+
+
+# if you are facing an issue like "Resource punkt_tab not found".
+# Reinstall and Download the Required NLTK Data.By Running this file it can be achieved.
